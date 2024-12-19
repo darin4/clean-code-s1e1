@@ -96,7 +96,7 @@ input#new-task {
 }
 
 /* Task list */
-.todo-item {
+li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -104,20 +104,20 @@ input#new-task {
   justify-content: space-between;
   align-items: center;
 }
-.todo-item > * {
+li> * {
   vertical-align: middle;
 }
 
-.todo-item > input[type="checkbox"] {
+li > input[type="checkbox"] {
   margin: 0 10px;
 }
-.todo-item > label {
+li > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.todo-item > input[type="text"] {
+li > input[type="text"] {
   width: 226px;
 }
 .button.delete img {
